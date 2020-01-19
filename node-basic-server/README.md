@@ -1,7 +1,9 @@
-# node-basic
+# node-basic-server
 Basic node server code.
 
 
 ### How to run ?
 
-` $ npm start `
+1. ` $ node app.js `
+
+2. Hit http://localhost:3000/ on browser.
