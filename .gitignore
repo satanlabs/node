@@ -1,18 +1,10 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
