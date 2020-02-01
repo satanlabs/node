@@ -15,7 +15,7 @@ fetch("http://example.com/api/users",
         },
         body: JSON.stringify(requestPayload)
     })
-    .then(res => {
+    .then((res) => {
         if (res.status != 201) { throw new Error("HTTP-RESPONSE-STATUS NOT 201"); }
         else { return res.json(); }
     }
