@@ -9,7 +9,7 @@ fetch("http://example.com/api/users",
             "Content-Type": "application/json"
         }
     })
-    .then(res => {
+    .then((res) => {
         if (res.status != 200) { throw new Error("HTTP-RESPONSE-STATUS NOT 200"); }
         else { return res.json(); }
     }
