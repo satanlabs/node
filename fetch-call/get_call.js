@@ -2,7 +2,7 @@
 
 const fetch = require("node-fetch");
 
-fetch("http://www.example.com/some_api/data",
+fetch("http://example.com/api/users",
     {
         method: "GET",
         headers: {
